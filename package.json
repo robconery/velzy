@@ -9,6 +9,10 @@
     "print": "cp ./dev/schema.js ./function/schema.js",
     "start": "func start"
   },
+  "azure" : {
+    "resourceGroup" : "velzy",
+    "location": "westus"
+  },
   "nodemonConfig": {
     "delay": 2500
   },

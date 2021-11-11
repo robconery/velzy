@@ -1,4 +1,4 @@
-
+# Run this script first - it sets up COSMOS DB for you
 #change as you need
 RG=velzy
 LOCATION=westus
