@@ -6,7 +6,7 @@ module.exports = {
     address: "",
     bio: "",
     signInCount: faker.datatype.integer,
-
+    region: ""
     //default rules are that admins can do anything
     //users can't. Override those rules with these constructs
     // _rules: {

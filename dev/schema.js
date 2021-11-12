@@ -1,4 +1,4 @@
-//generated Tue Nov 09 2021 11:05:26 GMT-1000 (Hawaii-Aleutian Standard Time)
+//generated Fri Nov 12 2021 09:20:41 GMT-1000 (Hawaii-Aleutian Standard Time)
 
 const { gql } = require('apollo-server-azure-functions');
 const { GraphQLJSON } = require("graphql-type-json");
@@ -14,7 +14,8 @@ const typeDefs = gql`
     name: String
     address: String
     bio: String
-    signInCount: String 
+    signInCount: String
+    region: String 
   }
 
   input UserInput { 
@@ -23,7 +24,8 @@ const typeDefs = gql`
     name: String
     address: String
     bio: String
-    signInCount: String 
+    signInCount: String
+    region: String 
   }
 
   type Query {
